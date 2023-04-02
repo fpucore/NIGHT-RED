@@ -1,0 +1,101 @@
+#********************************************************************************
+#
+#  _   _ _____ _____  _   _ _____     ______ ___________ 
+# | \ | |_   _|  __ \| | | |_   _|    | ___ \  ___|  _  \
+# |  \| | | | | |  \/| |_| | | |______| |_/ / |__ | | | |
+# | . ` | | | | | __ |  _  | | |______|    /|  __|| | | |
+# | |\  |_| |_| |_\ \| | | | | |      | |\ \| |___| |/ / 
+# \_| \_/\___/ \____/\_| |_/ \_/      \_| \_\____/|___/  
+#
+# "NIGHT-RED" for Openbox, by Chris McGimpsey-Jones.
+# chrisjones.unixmen@gmail.com
+# -----
+# April 2, 2023
+# Version 1.0 (beta)
+# -----
+# Inspired by "Nightmare" for pekwm, by Gilbert Flores.
+#
+#********************************************************************************
+
+
+#********************************************************************************
+#  menu settings	
+#********************************************************************************
+
+menu.title.bg: raised
+menu.title.bg.color: #ff0000
+menu.title.text.color: #ffffff
+menu.separator.color: #ffffff
+menu.items.bg: raised
+menu.items.bg.color: #ff0000
+menu.items.text.color: #ffffff
+menu.items.disabled.text.color: #ffffff
+menu.items.active.bg: flat border
+menu.items.active.bg.color: #ff0000
+menu.items.active.bg.border.color: #000000
+menu.items.active.text.color: #ffffff
+
+#********************************************************************************
+#  focused window settings
+#********************************************************************************
+
+window.active.title.bg: flat border
+window.active.title.bg.color: #ff0000
+window.active.title.bg.border.color: #000000
+window.active.handle.bg: raised
+window.active.handle.bg.color: #000000
+window.active.grip.bg: parentrelative
+window.active.label.bg: parentrelative
+window.active.label.text.color: #ffffff
+window.*.button.*.bg: parentrelative
+window.active.button.*.image.color: #ffffff
+window.active.button.*.pressed.image.color: #000000
+window.active.button.disabled.image.color: #ffffff
+
+#********************************************************************************
+#  unfocused window settings
+#********************************************************************************
+
+window.inactive.title.bg: raised
+window.inactive.title.bg.color: #000000
+window.inactive.handle.bg: raised
+window.inactive.handle.bg.color: #000000
+window.inactive.grip.bg: parentrelative
+window.inactive.label.bg: parentrelative
+window.inactive.label.text.color: #ffffff
+window.inactive.button.*.image.color: #ffffff
+
+#********************************************************************************
+#  global width settings
+#********************************************************************************
+
+padding.width: 1
+padding.height: 1
+border.width: 1
+window.handle.width: 3
+window.client.padding.width: 0
+menu.overlap.x: -5
+
+#********************************************************************************
+#  misc settings
+#********************************************************************************
+
+border.color: #000000
+menu.border.color: #ffffff
+
+#********************************************************************************
+#  osd		
+#********************************************************************************
+
+osd.bg: raised
+osd.bg.color: #181818
+osd.hilight.bg: flat border
+osd.hilight.bg.color: #375a18
+osd.hilight.bg.border.color: #548a25
+
+#********************************************************************************
+#  title justification
+#********************************************************************************
+
+menu.title.text.justify: center
+window.label.text.justify: center
